@@ -25,7 +25,7 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "sd-etcd": "git://github.com/jaredhanson/node-sd-etcd.git#develop"
+    "etcd-sd": "^0.1.0"
   },
   "devDependencies": {
     "mocha": "1.x.x",
