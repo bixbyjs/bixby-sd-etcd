@@ -23,7 +23,14 @@
       "url": "http://www.opensource.org/licenses/MIT"
     }
   ],
-  "main": "./lib",
+  "main": "./app",
+  "assembly": {
+    "namespace": "sd/registry/etcd",
+    "components": [
+      "registry",
+      "discover/env"
+    ]
+  },
   "dependencies": {
     "etcd-sd": "^0.1.0"
   },
